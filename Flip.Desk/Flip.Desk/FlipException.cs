@@ -6,7 +6,7 @@ namespace Flip.Desk
     [Serializable]
     public class FlipException : Exception
     {
-        private string message = "(╯°□°）╯︵ ┻━┻   Something went wrong.... :";
+        private string message = "(╯°□°）╯︵ ┻━┻   Something went wrong.... : \r\n";
 
         public FlipException()
         {
